@@ -76,7 +76,7 @@ mkdir data
 
 For **local models** (recommended - free and fast):
 ```bash
-./check_ollama_enhanced.sh mistral
+./ollama.sh mistral
 ```
 
 This will:
@@ -295,7 +295,7 @@ Tests cover:
 ### "Cannot connect to server at http://localhost:11434"
 ```bash
 # Make sure Ollama is running
-./check_ollama_enhanced.sh mistral
+./ollama.sh mistral
 ```
 
 ### "No PDF files found"
@@ -310,7 +310,7 @@ mkdir data
 ollama pull mistral
 
 # Or use the setup script
-./check_ollama_enhanced.sh mistral
+./ollama.sh mistral
 ```
 
 ### API Key errors (for cloud models)
